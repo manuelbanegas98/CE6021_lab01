@@ -27,6 +27,6 @@ def save_html(*figs, output_path):
     )
     with open(output_path, "w", encoding="utf-8") as fh:
         fh.write(html)
-    print(f"\nResults saved → {output_path}")
-    print("Open in VS Code: right-click → Open with Live Server")
+    print(f"\nResults saved -> {output_path}")
+    print("Open in VS Code: right-click -> Open with Live Server")
     print("         or run: python -m http.server 5000")
